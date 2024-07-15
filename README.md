@@ -13,7 +13,7 @@ Purpose: manage everything in Mini PC using WSL.
 
 ## TIPS
 
- 1. Do not use mintty, charset is broken.
+ 1. Use cmd.exe, do not use mintty, charset is broken.
 
 ## Installation
 
@@ -30,11 +30,15 @@ Fix vim start in replace mode. https://superuser.com/a/1525060
     ~/.vimrc
     set t_u7=
 
-### Setup cron
+### Setup cron (Work In Progress)
 
     /etc/wsl.conf
     [boot]
     command="service cron start"
+
+## Resources
+
+ 1. https://github.com/microsoft/WSL/
 
 ## TODO
 
