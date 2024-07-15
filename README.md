@@ -2,6 +2,8 @@
 
 Purpose: enable WSL to rule them all.
 
+![Wintel 0](Pictures/wintel-0.jpg)
+
 ## Hardware Specification
 
  1. CPU: Intel Cherry Trail CR Atom Z8350
@@ -22,8 +24,8 @@ Purpose: enable WSL to rule them all.
 
 ### Setup vim
 
-    sudo apt-get remove nano
-    sudo apt-get install vim
+    sudo apt remove nano
+    sudo apt install vim
 
 Fix vim start in replace mode. https://superuser.com/a/1525060
 
@@ -35,6 +37,12 @@ Fix vim start in replace mode. https://superuser.com/a/1525060
     /etc/wsl.conf
     [boot]
     command="service cron start"
+
+### Setup PHP
+
+All scripts will be written in PHP.
+
+    sudo apt install php-cli
 
 ## Resources
 
