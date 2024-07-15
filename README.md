@@ -1,6 +1,6 @@
 # Wintel
 
-Purpose: manage everything in Mini PC using WSL.
+Purpose: enable WSL to rule them all.
 
 ## Hardware Specification
 
